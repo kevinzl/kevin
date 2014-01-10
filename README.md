@@ -20,4 +20,6 @@ mysql -uroot -p:  有密码的数据库；
 	) chaset utf8;
 
 - 7.查看表结构 desc news;
-- 8.
+- 8.查看表 news 的结构
+	> show create table news;
+- 9.访问方法：c=controlname&m=functionname
